@@ -1,0 +1,38 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 7001
+  connection-timeout: 5000ms
+  servlet:
+    context-path: /quart-job
+
+spring:
+  application:
+    name: ware-quart-job
+  profiles:
+    active: dev
+  mvc:
+    throw-exception-if-no-handler-found: true
+
+# mybatis
+mybatis-plus:
+  mapper-locations: classpath*:/mybatis/mapper/**/*.xml
+  #实体扫描，多个package用逗号或者分号分隔
+  typeAliasesPackage: com.quart.job.*.entity
+  global-config:
+    #数据库相关配置
+    db-config:
+      id-type: AUTO
+      field-strategy: NOT_NULL
+      column-underline: true
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+    banner: false
+  #原生配置
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
