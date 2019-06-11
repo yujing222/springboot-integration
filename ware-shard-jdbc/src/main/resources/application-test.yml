@@ -1,0 +1,24 @@
+
+spring:
+  tables:
+    config:
+      dynamic: true
+  datasource:
+    ds0:
+      url: jdbc:mysql://localhost:3306/shard_one?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: root
+      password: 123
+      driver-class-name: com.mysql.jdbc.Driver
+    ds2:
+      url: jdbc:mysql://localhost:3306/shard_two?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: root
+      password: 123
+      driver-class-name: com.mysql.jdbc.Driver
+    ds3:
+      url: jdbc:mysql://localhost:3306/shard_three?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: root
+      password: 123
+      driver-class-name: com.mysql.jdbc.Driver
+save:
+  table:
+    name: table_one
