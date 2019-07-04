@@ -1,0 +1,14 @@
+spring:
+  # Redis 集群
+  redis:
+    sentinel:
+      # sentinel 配置
+      master: mymaster
+      nodes: 192.168.0.127:26379
+      maxTotal: 60
+      minIdle: 10
+      maxWaitMillis: 10000
+      testWhileIdle: true
+      testOnBorrow: true
+      testOnReturn: false
+      timeBetweenEvictionRunsMillis: 10000

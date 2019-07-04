@@ -1,0 +1,14 @@
+# Tomcat
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 7006
+  connection-timeout: 5000ms
+
+spring:
+  application:
+    name: ware-redis-cluster
+  profiles:
+    active: dev

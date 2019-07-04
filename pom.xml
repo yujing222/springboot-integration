@@ -23,12 +23,12 @@
         <module>ware-rocket-queue</module>
         <!-- ShardJdbc 分库分表-->
         <module>ware-shard-jdbc</module>
-        <!-- Redis 缓存 -->
-        <!--<module>ware-redis-data</module>-->
-        <!-- 整合右键发送 -->
+        <!-- JavaMail邮件 发送 -->
         <module>ware-email-send</module>
         <!-- Swagger2 接口界面 -->
         <module>ware-swagger-two</module>
+        <!-- RedisCluster 集群 -->
+        <module>ware-redis-cluster</module>
     </modules>
 
     <!-- 依赖版本管理 -->

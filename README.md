@@ -15,6 +15,11 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483774&idx=1&sn=e5c2eed4a989bedd5c3b108c7dc18c37&chksm=fdf455c6ca83dcd0bccf71aa07639b8ef514e3b6e6d85c6aeb4bceae30d58f021c9d7ba8590b&token=261735462&lang=zh_CN#rd">
 5、SpringBoot2.0 整合 QuartJob ,实现定时器实时管理</a><br/>
 
+<a href="">
+6、SpringBoot2.0 整合 Redis集群 ,实现消息队列场景</a><br/>
+
+持续更新中...
+
 ## 项目简介
 SpringBoot 集成常用中间件
 
