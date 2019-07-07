@@ -1,0 +1,21 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 7008
+  connection-timeout: 5000ms
+
+spring:
+  application:
+    name: block-dubbo-consume
+# Dubbo 配置文件
+dubbo:
+  application:
+    name: block-dubbo-consume
+  registry:
+    address: 127.0.0.1:2181
+    protocol: zookeeper
+  # 基于服务消费方配置超时
+  consumer:
+    timeout: 1000

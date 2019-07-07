@@ -29,6 +29,8 @@
         <module>ware-swagger-two</module>
         <!-- RedisCluster 集群 -->
         <module>ware-redis-cluster</module>
+        <!-- Dubbo 框架 -->
+        <module>ware-dubbo-parent</module>
     </modules>
 
     <!-- 依赖版本管理 -->

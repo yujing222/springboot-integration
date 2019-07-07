@@ -15,8 +15,11 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483774&idx=1&sn=e5c2eed4a989bedd5c3b108c7dc18c37&chksm=fdf455c6ca83dcd0bccf71aa07639b8ef514e3b6e6d85c6aeb4bceae30d58f021c9d7ba8590b&token=261735462&lang=zh_CN#rd">
 5、SpringBoot2.0 整合 QuartJob ,实现定时器实时管理</a><br/>
 
-<a href="">
+<a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483886&idx=1&sn=2158323687acc7713d5d45c21c9558ee&chksm=fdf45556ca83dc409f1c7ce282b4297a0bed9df594796fd921c719f0c77896a183098cb43159&token=872954754&lang=zh_CN#rd">
 6、SpringBoot2.0 整合 Redis集群 ,实现消息队列场景</a><br/>
+
+<a href="">
+7、SpringBoot2.0 整合 Dubbo框架 ,实现RPC服务远程调用</a><br/>
 
 持续更新中...
 
