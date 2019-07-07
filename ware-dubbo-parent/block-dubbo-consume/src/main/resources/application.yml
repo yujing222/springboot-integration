@@ -16,6 +16,3 @@ dubbo:
   registry:
     address: 127.0.0.1:2181
     protocol: zookeeper
-  # 基于服务消费方配置超时
-  consumer:
-    timeout: 1000
