@@ -21,6 +21,9 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483895&idx=1&sn=4fdc2a307b49a66c37c22c7de62aa323&chksm=fdf4554fca83dc5935e3f36c541a5e03cedd440e14eafa1a577b52f047d98b79b9af891f7330&token=989276463&lang=zh_CN#rd">
 7、SpringBoot2.0 整合 Dubbo框架 ,实现RPC服务远程调用</a><br/>
 
+<a href="">
+8、SpringBoot2.0 整合 ElasticSearch框架,实现高性能搜索引擎</a><br/>
+
 持续更新中...
 
 ## 项目简介

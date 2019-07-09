@@ -31,6 +31,8 @@
         <module>ware-redis-cluster</module>
         <!-- Dubbo 框架 -->
         <module>ware-dubbo-parent</module>
+        <!-- ElasticSearch 搜索框架 -->
+        <module>ware-elastic-search</module>
     </modules>
 
     <!-- 依赖版本管理 -->
