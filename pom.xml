@@ -33,6 +33,8 @@
         <module>ware-dubbo-parent</module>
         <!-- ElasticSearch 搜索框架 -->
         <module>ware-elastic-search</module>
+        <!-- JWT TOKEN 验证 -->
+        <module>ware-jwt-token</module>
     </modules>
 
     <!-- 依赖版本管理 -->

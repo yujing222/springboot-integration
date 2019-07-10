@@ -1,0 +1,13 @@
+server:
+  port: 7009
+spring:
+  application:
+    name: ware-jwt-token
+config:
+  jwt:
+    # 加密密钥
+    secret: iwqjhda8232bjgh432[cicada-smile]
+    # token有效时长
+    expire: 3600
+    # header 名称
+    header: token

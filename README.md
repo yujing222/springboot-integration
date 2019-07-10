@@ -21,8 +21,11 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483895&idx=1&sn=4fdc2a307b49a66c37c22c7de62aa323&chksm=fdf4554fca83dc5935e3f36c541a5e03cedd440e14eafa1a577b52f047d98b79b9af891f7330&token=989276463&lang=zh_CN#rd">
 7、SpringBoot2.0 整合 Dubbo框架 ,实现RPC服务远程调用</a><br/>
 
-<a href="">
+<a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483905&idx=1&sn=f15ecc1ab3065c24854a02741db0aa0c&chksm=fdf456b9ca83dfaf937f370981432f98d2c5d7d0c7638df6206ffd22c2db79b7924c19e90931&token=935482848&lang=zh_CN#rd">
 8、SpringBoot2.0 整合 ElasticSearch框架,实现高性能搜索引擎</a><br/>
+
+<a href="">
+9、SpringBoot2.0 整合 JWT 框架,解决Token跨域验证问题</a><br/>
 
 持续更新中...
 
