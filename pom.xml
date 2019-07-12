@@ -35,6 +35,8 @@
         <module>ware-elastic-search</module>
         <!-- JWT TOKEN 验证 -->
         <module>ware-jwt-token</module>
+        <!-- FastDFS文件管理 -->
+        <module>ware-fast-dfs</module>
     </modules>
 
     <!-- 依赖版本管理 -->
