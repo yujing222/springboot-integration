@@ -37,6 +37,8 @@
         <module>ware-jwt-token</module>
         <!-- FastDFS文件管理 -->
         <module>ware-fast-dfs</module>
+        <!-- Shiro 权限管理 -->
+        <module>ware-shiro-auth</module>
     </modules>
 
     <!-- 依赖版本管理 -->

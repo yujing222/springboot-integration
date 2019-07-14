@@ -27,8 +27,11 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483909&idx=1&sn=e7a63b160abfd623222a2eb089c3bbce&chksm=fdf456bdca83dfab1feea56ba01a956eee764fd84ae6a198b805458adbb94e5abe5488704186&token=838095302&lang=zh_CN#rd">
 09、SpringBoot2.0 整合 JWT 框架,解决Token跨域验证问题</a><br/>
 
-<a href="">
+<a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483918&idx=1&sn=189b6f4360c46ca816de85a3205a9fb3&chksm=fdf456b6ca83dfa0f5b0f9c441a8ece1b158792a03e3483ddc702576e9e77f963690c0716e9f&token=1681245262&lang=zh_CN#rd">
 10、SpringBoot2.0 整合 FastDFS 中间件，实现文件分布管理</a><br/>
+
+<a href="">
+11、SpringBoot2.0 整合 Shiro 框架，实现用户权限管理</a><br/>
 
 持续更新中...
 

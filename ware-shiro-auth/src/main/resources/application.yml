@@ -1,0 +1,38 @@
+server:
+  port: 7011
+spring:
+  application:
+    name: ware-shiro-auth
+  main:
+      allow-bean-definition-overriding: true #当遇到同样名字的时候，是否允许覆盖注册
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      driverClassName: com.mysql.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/spring-boot2?allowMultiQueries=true&useUnicode=true&characterEncoding=UTF-8
+      username: root
+      password: root
+      initial-size: 10
+      max-active: 100
+      min-idle: 10
+      max-wait: 60000
+      pool-prepared-statements: true
+      max-pool-prepared-statement-per-connection-size: 20
+      time-between-eviction-runs-millis: 60000
+      min-evictable-idle-time-millis: 300000
+      max-evictable-idle-time-millis: 60000
+      validation-query: SELECT 1 FROM DUAL
+      # validation-query-timeout: 5000
+      test-on-borrow: false
+      test-on-return: false
+      test-while-idle: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      #filters: #配置多个英文逗号分隔(统计，sql注入，log4j过滤)
+      filters: stat,wall
+      stat-view-servlet:
+        enabled: true
+        url-pattern: /druid/*
+# mybatis 配置
+mybatis:
+  type-aliases-package: com.boot.shiro.entity   # 所有Entity别名类所在包
+  mapper-locations: classpath:mapper/*.xml      # mapper映射文件
