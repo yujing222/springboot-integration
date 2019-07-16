@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Insert title here</title>
+</head>
+<body>
+<h1 align="center">Security &nbsp;&nbsp;&nbsp;&nbsp; Welcome!</h1>
+<div sec:authorize="!isAuthenticated()">
+    <h2 align="center">没登录！ <a th:href="@{/userLogin}">请登录</a></h2>
+</div>
+<div sec:authorize="isAuthenticated()">
+    <h2><span sec:authentication="name"></span>当前角色有：
+        <span sec:authentication="principal.authorities"></span></h2>
+    <form th:action="@{/logout}" method="post">
+        <input type="submit" value="LOG OUT"/>
+    </form>
+</div>
+<hr>
+
+<div sec:authorize="hasRole('LEVEL1')">
+    <h3>page1</h3>
+    <ul>
+        <li><a th:href="@{/page1/one1}">one1.html</a></li>
+        <li><a th:href="@{/page1/one2}">one2.html</a></li>
+        <li><a th:href="@{/page1/one3}">one3.html</a></li>
+    </ul>
+</div>
+
+<div sec:authorize="hasRole('LEVEL2')">
+    <h3>page2</h3>
+    <ul>
+        <li><a th:href="@{/page2/one1}">one1.html</a></li>
+        <li><a th:href="@{/page2/one2}">one2.html</a></li>
+        <li><a th:href="@{/page2/one3}">one3.html</a></li>
+    </ul>
+</div>
+
+<div sec:authorize="hasRole('LEVEL3')">
+    <h3>page3</h3>
+    <ul>
+        <li><a th:href="@{/page3/one1}">one1.html</a></li>
+        <li><a th:href="@{/page3/one2}">one2.html</a></li>
+        <li><a th:href="@{/page3/one3}">one3.html</a></li>
+    </ul>
+</div>
+</body>
+</html>

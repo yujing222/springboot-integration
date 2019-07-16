@@ -30,8 +30,11 @@
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483918&idx=1&sn=189b6f4360c46ca816de85a3205a9fb3&chksm=fdf456b6ca83dfa0f5b0f9c441a8ece1b158792a03e3483ddc702576e9e77f963690c0716e9f&token=1681245262&lang=zh_CN#rd">
 10、SpringBoot2.0 整合 FastDFS 中间件，实现文件分布管理</a><br/>
 
-<a href="">
+<a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483922&idx=1&sn=f632615588b11840df3a6d17013c7058&chksm=fdf456aaca83dfbc34e13ffd4f05491e6598f3eff7bfeab28b14317cc0f95f939de08eee0c1e&token=1211663505&lang=zh_CN#rd">
 11、SpringBoot2.0 整合 Shiro 框架，实现用户权限管理</a><br/>
+
+<a href="">
+12、SpringBoot2.0 整合 Security 框架，实现用户权限管理</a><br/>
 
 持续更新中...
 

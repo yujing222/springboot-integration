@@ -39,6 +39,8 @@
         <module>ware-fast-dfs</module>
         <!-- Shiro 权限管理 -->
         <module>ware-shiro-auth</module>
+        <!-- Security 权限管理 -->
+        <module>ware-security-auth</module>
     </modules>
 
     <!-- 依赖版本管理 -->
