@@ -46,8 +46,4 @@ SpringBoot集成常用开发中间件，分库分表，缓存，消息队列，�
 ## 我的公众号
 关注公众号：知了一笑<br/>
 <img width="150px" height="150px" src="https://avatars0.githubusercontent.com/u/50793885?s=460&v=4"/><br/>
-name | 111 | 222 | 333 | 444
-- | :-: | :-: | :-: | -:
-aaa | bbb | ccc | ddd | eee| 
-fff | ggg| hhh | iii | 000|
 
