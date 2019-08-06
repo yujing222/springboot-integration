@@ -1,6 +1,6 @@
 ## 参考文章
 
-SpringBoot2基础教程--> [点击这里跳转](https://github.com/cicadasmile/spring-boot-base)
+<b>【SpringBoot2基础教程】--> [点击这里跳转](https://github.com/cicadasmile/spring-boot-base)</b><br/>
 
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483713&idx=1&sn=cd4228e19d07e0371af7ef06515f4298&chksm=fdf455f9ca83dcef81c44f10bff15a3d3a29553746eef9cad9d4e2a13c5d5709d95a375bff0a&token=949711998&lang=zh_CN#rd">
 01、SpringBoot2.0 整合 shard-jdbc 中间件，实现数据分库分表</a><br/>
