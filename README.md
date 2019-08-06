@@ -38,6 +38,10 @@
 
 持续更新中...
 
+## 环境搭建
+
+该案例用到中间件在Linux搭建教程：[Linux系统搭建常用中间件](https://github.com/cicadasmile/linux-system-base)
+
 ## 项目简介
 SpringBoot 集成常用中间件
 
