@@ -2,6 +2,8 @@
 
 <b>【SpringBoot2基础教程】--> 【[GitHub点这里](https://github.com/cicadasmile/spring-boot-base)】          【[码云.点这里](https://gitee.com/cicadasmile/spring-boot-base)】</b><br/>
 
+<b>【案例中相关中间件搭建】--> 【[GitHub点这里](https://github.com/cicadasmile/linux-system-base)】          【[码云.点这里](https://gitee.com/cicadasmile/linux-system-base)】</b><br/>
+
 <a href="https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247483713&idx=1&sn=cd4228e19d07e0371af7ef06515f4298&chksm=fdf455f9ca83dcef81c44f10bff15a3d3a29553746eef9cad9d4e2a13c5d5709d95a375bff0a&token=949711998&lang=zh_CN#rd">
 01、SpringBoot2.0 整合 shard-jdbc 中间件，实现数据分库分表</a><br/>
 
@@ -40,16 +42,17 @@
 
 持续更新中...
 
-## 环境搭建
-
-该案例用到中间件在Linux搭建教程：[Linux系统搭建常用中间件](https://github.com/cicadasmile/linux-system-base)
-
 ## 项目简介
 SpringBoot 集成常用中间件
 
 SpringBoot集成常用开发中间件，分库分表，缓存，消息队列，定时器，权限管理等组件
 
-## 我的公众号
+## 关于作者
 关注公众号：知了一笑<br/>
 <img width="255px" height="255px" src="https://avatars0.githubusercontent.com/u/50793885?s=460&v=4"/><br/>
 
+## 项目推荐
+
+1、SpringBoot2 基础案例  -- >> 【[GitHub点这里](https://github.com/cicadasmile/spring-boot-base)】          【[码云.点这里](https://gitee.com/cicadasmile/spring-boot-base)】</b><br/>
+
+【SpringBoot2 基础，进阶，事物管理，数据库，NoSql，项目管理等基础案例】
