@@ -19,7 +19,7 @@ rocketmq:
     # 官方建议：确保同一组中的每个消费者订阅相同的主题。
     groupName: FeePlatGroup
     # 服务地址
-    namesrvAddr: 10.1.20.107:9876
+    namesrvAddr: 127.0.0.1:9876
     # 接收该 Topic 下所有 Tag
     topics: FeePlatTopic~*;
     consumeThreadMin: 20
