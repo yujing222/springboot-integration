@@ -6,7 +6,7 @@ rocketmq:
     # 发送同一类消息的设置为同一个group，保证唯一
     groupName: FeePlatGroup
     # 服务地址
-    namesrvAddr: 10.1.20.107:9876
+    namesrvAddr: 127.0.0.1:9876
     # 消息最大长度 默认1024*4(4M)
     maxMessageSize: 4096
     # 发送消息超时时间,默认3000
