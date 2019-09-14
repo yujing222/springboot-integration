@@ -20,7 +20,7 @@ public class RocketMqServiceImpl implements RocketMqService {
         try {
             Message sendMsg = new Message(paramConfigService.rocketTopic,
                                           paramConfigService.rocketTag,
-                                         "fee_open_account_key", msgInfo.getBytes());
+                                         "open_account_key", msgInfo.getBytes());
             sendResult = defaultMQProducer.send(sendMsg);
         } catch (Exception e) {
             e.printStackTrace();

@@ -34,7 +34,7 @@ public class RocketMsgListener implements MessageListenerConcurrently {
         if(messageExt.getTopic().equals(paramConfigService.rocketTopic)){
             String tags = messageExt.getTags() ;
             switch (tags){
-                case "FeeAccountTag":
+                case "rocketTag":
                     LOG.info("开户 tag == >>"+tags);
                     break ;
                 default:
