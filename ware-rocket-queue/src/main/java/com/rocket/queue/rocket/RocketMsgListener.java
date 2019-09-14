@@ -31,7 +31,7 @@ public class RocketMsgListener implements MessageListenerConcurrently {
         if(reConsume ==3){
             return ConsumeConcurrentlyStatus.CONSUME_SUCCESS;
         }
-        if(messageExt.getTopic().equals(paramConfigService.feePlatTopic)){
+        if(messageExt.getTopic().equals(paramConfigService.rocketTopic)){
             String tags = messageExt.getTags() ;
             switch (tags){
                 case "FeeAccountTag":

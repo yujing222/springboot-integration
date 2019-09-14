@@ -4,10 +4,10 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 @Service
 public class ParamConfigService {
-    @Value("${fee-plat.fee-plat-group}")
-    public String feePlatGroup ;
-    @Value("${fee-plat.fee-plat-topic}")
-    public String feePlatTopic ;
-    @Value("${fee-plat.fee-account-tag}")
-    public String feeAccountTag ;
+    @Value("${rocket.group}")
+    public String rocketGroup ;
+    @Value("${rocket.topic}")
+    public String rocketTopic ;
+    @Value("${rocket.tag}")
+    public String rocketTag ;
 }
