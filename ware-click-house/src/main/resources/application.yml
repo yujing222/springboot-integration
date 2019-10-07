@@ -1,0 +1,19 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 7016
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ware-click-house
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+# mybatis 配置
+mybatis:
+  type-aliases-package: com.click.house.entity
+  mapper-locations: classpath:/mapper/*.xml

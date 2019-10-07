@@ -41,6 +41,8 @@
         <module>ware-shiro-auth</module>
         <!-- Security 权限管理 -->
         <module>ware-security-auth</module>
+        <!-- ClickHouse 数据库 -->
+        <module>ware-click-house</module>
     </modules>
 
     <!-- 依赖版本管理 -->
