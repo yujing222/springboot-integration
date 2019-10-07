@@ -41,6 +41,7 @@
 12、SpringBoot2 整合 Security 框架，实现用户权限管理</a><br/>
 
 [13、SpringBoot2 整合 ClickHouse数据库，实现数据高性能查询分析](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484121&idx=1&sn=29cc633facbbb2c69afa4e6472fb93e8&chksm=fdf45661ca83df77879cbea0e0e3b445a5972a9fc0f84ae25c6882e60e4bed3dc2a68338fa2a&token=1150397377&lang=zh_CN#rd)<br/>
+[14、SpringBoot2 整合 Drools规则引擎，实现高效的业务规则](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484126&idx=1&sn=480ca951cb6a4da92f7e153ecc6f5161&chksm=fdf45666ca83df70d4cd84be8712e15b192ee0ec4a9aed9c537e13d23bf534afaa7c1712f5b3&token=1150397377&lang=zh_CN#rd)<br/>
 
 持续更新中...
 
