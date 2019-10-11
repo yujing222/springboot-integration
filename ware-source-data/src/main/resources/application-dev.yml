@@ -1,0 +1,44 @@
+spring:
+  # 数据源配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    admin-data:
+      driverClassName: com.mysql.jdbc.Driver
+      dbUrl: jdbc:mysql://127.0.0.1:3306/cloud-admin-data?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: root
+      password: 123
+      initialSize: 20
+      maxActive: 100
+      minIdle: 20
+      maxWait: 60000
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 30
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 30000
+      maxEvictableIdleTimeMillis: 60000
+      validationQuery: SELECT 1 FROM DUAL
+      testOnBorrow: false
+      testOnReturn: false
+      testWhileIdle: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      filters: stat,wall
+    user-data:
+      driverClassName: com.mysql.jdbc.Driver
+      dbUrl: jdbc:mysql://127.0.0.1:3306/cloud-user-data?useUnicode=true&characterEncoding=UTF8&zeroDateTimeBehavior=convertToNull&useSSL=false
+      username: root
+      password: 123
+      initialSize: 20
+      maxActive: 100
+      minIdle: 20
+      maxWait: 60000
+      poolPreparedStatements: true
+      maxPoolPreparedStatementPerConnectionSize: 30
+      timeBetweenEvictionRunsMillis: 60000
+      minEvictableIdleTimeMillis: 30000
+      maxEvictableIdleTimeMillis: 60000
+      validationQuery: SELECT 1 FROM DUAL
+      testOnBorrow: false
+      testOnReturn: false
+      testWhileIdle: true
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      filters: stat,wall

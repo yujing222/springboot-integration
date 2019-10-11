@@ -1,0 +1,19 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 7013
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ware-source-data
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+# mybatis 配置
+mybatis:
+  type-aliases-package: com.boot.mybatis.entity
+  mapper-locations: classpath:/dataOneMapper/*.xml,classpath:/dataTwoMapper/*.xml
