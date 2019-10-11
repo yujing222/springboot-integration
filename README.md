@@ -42,6 +42,7 @@
 
 [13、SpringBoot2 整合 ClickHouse数据库，实现数据高性能查询分析](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484121&idx=1&sn=29cc633facbbb2c69afa4e6472fb93e8&chksm=fdf45661ca83df77879cbea0e0e3b445a5972a9fc0f84ae25c6882e60e4bed3dc2a68338fa2a&token=1150397377&lang=zh_CN#rd)<br/>
 [14、SpringBoot2 整合 Drools规则引擎，实现高效的业务规则](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484126&idx=1&sn=480ca951cb6a4da92f7e153ecc6f5161&chksm=fdf45666ca83df70d4cd84be8712e15b192ee0ec4a9aed9c537e13d23bf534afaa7c1712f5b3&token=1150397377&lang=zh_CN#rd)<br/>
+[15、SpringBoot2 配置多数据源，整合MybatisPlus增强插件](https://mp.weixin.qq.com/s?__biz=MzU4Njg0MzYwNw==&mid=2247484131&idx=1&sn=f96cc6dc29ed8c2f5823183775726733&chksm=fdf4565bca83df4dd23fa2672303c331ded0fab9534e8ae2d529cd61262dcce399d2b0642f8e&token=1909713327&lang=zh_CN#rd)<br/>
 
 持续更新中...
 

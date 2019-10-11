@@ -1,0 +1,31 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  port: 7014
+spring:
+  profiles:
+    active: dev
+  application:
+    name: ware-source-data
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml
+  typeAliasesPackage: com.digital.market.*.entity
+  global-config:
+    db-config:
+      id-type: AUTO
+      field-strategy: NOT_NULL
+      logic-delete-value: -1
+      logic-not-delete-value: 0
+    banner: false
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
+    cache-enabled: false
+    call-setters-on-nulls: true
+    jdbc-type-for-null: 'null'
