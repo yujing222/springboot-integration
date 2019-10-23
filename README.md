@@ -47,10 +47,10 @@
 持续更新中...
 
 ## 项目简介
-SpringBoot 集成常用中间件
-
 SpringBoot集成常用开发中间件，分库分表，缓存，消息队列，定时器，权限管理等组件
 
+## author
+<p><img src="E:\Images\微信二维码.png" alt="cmd-markdown-logo" title="" /></p>
 
 ## 项目推荐
 
